@@ -4255,3 +4255,46 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+
+
+	/* Affenhaus Styles */
+	.hero {
+		position: fixed;
+		width: 100%;
+		z-index: 0;
+		top: 45px;
+	}
+	
+	.hero img {
+		width: 100%;
+	}
+	
+	.subhero {
+		top:500px;
+		padding-top:50px;
+		width: 100%;
+		position: relative;
+		background: #ffffff;
+	}
+	.subhero-medium {
+		top:300px;
+		padding-top:50px;
+		width: 100%;
+		position: relative;
+		background: #ffffff;
+	}
+	.subhero-small {
+		top:45px;
+		padding-top:50px;
+		width: 100%;
+		position: relative;
+		background: #ffffff;
+	}
+	footer {
+		height:200px;
+	}
+
+	/* HACKS */
+	
+
+
