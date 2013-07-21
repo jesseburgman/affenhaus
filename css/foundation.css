@@ -1130,7 +1130,7 @@ dl {
   font-family: inherit; }
 
 ul, ol {
-  margin-left: 0; }
+  margin-left: 25px; }
 
 /* Unordered Lists */
 ul li ul,
@@ -2755,7 +2755,7 @@ form.custom {
       .top-bar-section ul li > a.button.alert.hover {
         background: #970b0e; }
   .top-bar-section ul li.active > a {
-    background: #090909;
+    background: #00cc99;
     color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -4297,6 +4297,16 @@ a.th {
 	a.underline {
  		color: #333333;
 	  	border-bottom: 1px Solid #00F;
+	}
+	
+	footer p {
+		color:#dddddd;
+		font-family: "raleway";
+		font-weight: 100;
+	}
+	
+	.row.extramargin {
+		margin: 50px auto 10px !important;
 	}
 	
 	/* HACKS */
