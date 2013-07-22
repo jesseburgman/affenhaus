@@ -3,6 +3,12 @@
 /* humanstxt.org */
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, Textmate, Git
+  Standards: HTML5, CSS3, Ruby, 
+  Components: jQuery, Orbit, Reveal, Jekyll, SVG social icons
+  Software: Chrome, Textmate, Github, Markdown
+
+/* NOTES */
+All case studies and play projects are updated by hand in good ol' fashoned HTML
+Think articles are built using Markdown and processed via Jekyll
+
+SVG social icons via fairheadcreative.com

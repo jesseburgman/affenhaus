@@ -1306,7 +1306,7 @@ blockquote p {
     display: inherit !important; } }
 button, .button {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   cursor: pointer;
   font-family: inherit;
   font-weight: bold;
@@ -1321,11 +1321,11 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
+  background-color: #00cc99;
   border-color: #2284a1;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #2284a1; }
+    background-color: #009999; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1456,20 +1456,13 @@ button, .button {
 
 @media only screen {
   button, .button {
-    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
     button:active, .button:active {
       -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset;
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2) inset; }
-    button.radius, .button.radius {
-      -webkit-border-radius: 3px;
-      border-radius: 3px; }
-    button.round, .button.round {
-      -webkit-border-radius: 1000px;
-      border-radius: 1000px; } }
+    }
 @media only screen and (min-width: 768px) {
   button, .button {
     display: inline-block; } }
@@ -1669,7 +1662,7 @@ textarea {
   font-size: 0.875em;
   margin: 0 0 1em 0;
   padding: 0.5em;
-  height: 2.3125em;
+  height: auto;
   width: 100%;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
