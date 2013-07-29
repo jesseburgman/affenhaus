@@ -9,7 +9,6 @@
 
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/webicons.css" />
   <script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
@@ -28,75 +27,27 @@
 		  <section class="top-bar-section">
 		    <!-- Right Nav Section -->
 		    <ul class="right">
-		      <li class="has-dropdown"><a href="#">work</a>
+		      <li class="has-dropdown active"><a href="#">work</a>
 			        <ul class="dropdown">
 						<li><a href="case_studies.html">case studies</a></li>
-						<li><a href="portfolio.html">portfolio</a></li>	
+						<li class="active"><a href="portfolio.html">portfolio</a></li>	
 					</ul>
-  			  </li>
-		      <li><a href="play.html">play</a></li>
+  			  </li>		      <li><a href="play.html">play</a></li>
 		      <li><a href="think.html">think</a></li>
-			  <li class="active"><a href="contact.html">contact</a></li>
-			
+			  <li><a href="contact.html">contact</a></li>
 		    </ul>
 		  </section>
 		</nav>
 	</div>	
 
-<!-- Second Band (Article Title area) -->
-	<div class="row extramargin">
-		<div class="large-12 columns">
-			<h2>Get in Touch!</h2>
-			<hr>      
-		</div>
-	</div>
-<!-- Contact Details -->
-	<div class="row">
-	    <div class="large-9 columns">
-			<p>If you're a software engineer or developer in the DC area and you're looking for a designer to collaborate with on your next project, hit me up. I also wrench on vintage motorcycles from time to time. If you're with bugs in your teeth crowd I'd love to hear from you.</p>
-			<form>
-				<div class="row collapse">
-					<div class="large-2 columns">
-						<label class="inline">Your Name</label>
-					</div>
-					<div class="large-10 columns">
-						<input type="text" id="yourName" placeholder="Jane Smith">
-					</div>
-				</div>
-				<div class="row collapse">
-					<div class="large-2 columns">
-						<label class="inline"> Your Email</label>
-					</div>
-					<div class="large-10 columns">
-						<input type="text" id="yourEmail" placeholder="jesseburgman@gmail.com">
-					</div>
-				</div>
-       			<label class="inline">What's up?</label>
-       			<textarea rows="10"></textarea>
-				<button type="submit" class="radius button">Submit</button>
-			</form>
-	    </div>
-		<div class="large-3 columns">
-			<h5>...or find me on</h5>
-			<a href="#" class="webicon linkedin">LinkedIn</a>
-			<br />
-			<a href="#" class="webicon twitter">Twitter</a>
-			<br />
-			<a href="#" class="webicon facebook">Facebook</a>
-			<br />
-			<a href="#" class="webicon pinterest">Pinterest</a>
-			<br />
-			<a href="#" class="webicon behance">Behance</a>
-			<br />
-			<a href="#" class="webicon instagram">Instragram</a>
-			<br />
-			<a href="#" class="webicon dribbble">Dribbble</a>
-			<br />
-			<a href="#" class="webicon googleplus">Google+</a>			
-		</div>
+<!--isotope content area-->
+	<div class="container">
+		<div class="item"><img src="img/orion.jpg" height="200" width="400"></div>
+		<div class="item"><img src="img/orion.jpg" height="15" width="100"></div>
+		<div class="item"><img src="img/orion.jpg" height="42" width="600"></div>
 	</div>
 <!-- Footer -->
-	<footer class="row extramargin">
+	<footer class="row">
 	    <div class="large-12 columns">
 	      <hr />
 	      <div class="row">
@@ -116,6 +67,7 @@
   </script>
   
   <script src="js/foundation.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>	
   <!--
   
   <script src="js/foundation/foundation.js"></script>
@@ -152,6 +104,13 @@
   
   <script>
     $(document).foundation();
+  </script>
+  <script>
+	$('#container').isotope({
+	  // options
+	  itemSelector : '.item',
+	  layoutMode : 'fitRows'
+	});
   </script>
 </body>
 </html>

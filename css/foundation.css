@@ -3094,7 +3094,7 @@ form.custom {
     .orbit-container .orbit-next:hover > span {
       border-left-color: #ccc; }
 
-.orbit-bullets {
+/*.orbit-bullets {
   margin: 0 auto 30px auto;
   overflow: hidden;
   position: relative;
@@ -3118,7 +3118,11 @@ form.custom {
 .touch .orbit-container .orbit-next {
   display: none; }
 .touch .orbit-bullets {
-  display: none; }
+  display: none; }*/
+
+.orbit-bullets {
+	display: none;
+}
 
 @media only screen and (min-width: 768px) {
   .touch .orbit-container .orbit-prev,
@@ -4302,7 +4306,17 @@ a.th {
 		margin: 50px auto 10px !important;
 	}
 	
-	/* HACKS */
-	
+	.row.extramarginbottom {
+		margin: 10px auto 50px !important;
+	}
 
+	.nopadding{
+		padding: 0;
+	}
+
+	.nopadding img:hover {
+	            opacity: 0.9;
+	}
+	
+	
 

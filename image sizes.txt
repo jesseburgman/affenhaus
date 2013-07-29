@@ -1,0 +1,7 @@
+image sizes:
+portfolio small – 303 x 303
+portfolio large – 864 X height
+home background – 1440 x 500
+case studies/play promo  – 753x358
+case study/play – 970 x height (full width)
+case study/play – 303x height (3 column)
