@@ -4297,17 +4297,17 @@ a.th {
 	}
 	
 	footer p {
-		color:#dddddd;
+		color:#aaaaaa;
 		font-family: "raleway";
 		font-weight: 100;
 	}
 	
 	.row.extramargin {
-		margin: 50px auto 10px !important;
+		margin-top: 50px !important;
 	}
 	
 	.row.extramarginbottom {
-		margin: 10px auto 50px !important;
+		margin-bottom:50px !important;
 	}
 
 	.nopadding{
@@ -4315,8 +4315,16 @@ a.th {
 	}
 
 	.nopadding img:hover {
-	            opacity: 0.9;
+	            opacity: 0.3;
+				-webkit-filter: grayscale(100%);	
+
 	}
 	
-	
+	#jb_centered {
+		display: block;
+		margin: auto;
+		width: 50%;
+		height: 50%;
+		margin-bottom: 50px;
+	}
 
