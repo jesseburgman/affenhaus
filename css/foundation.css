@@ -1061,8 +1061,8 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-family: "Varela Round", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #222222;
   text-rendering: optimizeLegibility;
@@ -4298,7 +4298,7 @@ a.th {
 	
 	footer p {
 		color:#aaaaaa;
-		font-family: "raleway";
+  		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		font-weight: 100;
 	}
 	
