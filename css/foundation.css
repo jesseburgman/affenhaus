@@ -1308,8 +1308,8 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: inherit;
-  font-weight: bold;
+  font-family: "Varela Round", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: regular;
   line-height: 1;
   margin: 0 0 1.25em;
   position: relative;
@@ -2724,8 +2724,8 @@ form.custom {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-size: 0.8125em;
-    font-weight: bold;
+    font-size: 1em;
+    font-weight: regular;
     background: #222222; }
     .top-bar-section ul li > a.hover {
       background: #090909;
@@ -4326,5 +4326,9 @@ a.th {
 		width: 50%;
 		height: 50%;
 		margin-bottom: 50px;
+	}
+	
+	.top-bar-section{
+	  font-family: "Varela Round", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	}
 
