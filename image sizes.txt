@@ -1,4 +1,4 @@
-image sizes:
+ image sizes:
 portfolio small – 303 x 303
 portfolio large – 864 X height
 home background – 1440 x 500
